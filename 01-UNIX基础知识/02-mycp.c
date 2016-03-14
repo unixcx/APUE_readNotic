@@ -2,7 +2,7 @@
 #include <unistd.h> //STDIN_FILENO && STDOUT_FILENO && read() && write()
 
 #define BUFFSIZE    4096
-
+/* {{{ in page 7. 复制任一unix普通文件. 用法 ./a.out < 源文件 > 输出文件; eg: ./a.out < 02-mycp.c > 02-mycp_bak.c */
 int main(void)
 {
     int     n;
@@ -22,3 +22,4 @@ int main(void)
 
     return 0;
 }
+/* }}} */
